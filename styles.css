@@ -1,11 +1,48 @@
 body{
     background-color: blueviolet;
-    width: 400px;
-    height: 600px;
-    margin: solid black;
+     display: flex;
+    align-items:center;
+    justify-content: center; 
+    height: 100vh;
+   
 }
 #container{
     height: 500px;
-    width: 150px;
-
+    width: 250px;
+    border: solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 7px;
+    background-image: url(https://images.pexels.com/photos/12705772/pexels-photo-12705772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+#tab{
+    background-color: aliceblue;
+    width:250px; 
+    height: 40px;
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ h6{
+    position: relative;
+    top: 20px;
+    right: 20px;
+    bottom: 30px;
+    display: inline;
+    justify-content: center;
+}
+.nav{
+    position:relative;
+    left:5px;
+    top: 2px;
+}
+.about{
+    position:relative;
+    left:15px;
+    top: 2px;
+}
+
