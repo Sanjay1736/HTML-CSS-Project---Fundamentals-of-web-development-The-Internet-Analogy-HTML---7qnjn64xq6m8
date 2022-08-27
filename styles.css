@@ -1,1 +1,11 @@
+body{
+    background-color: blueviolet;
+    width: 400px;
+    height: 600px;
+    margin: solid black;
+}
+#container{
+    height: 500px;
+    width: 150px;
 
+}
