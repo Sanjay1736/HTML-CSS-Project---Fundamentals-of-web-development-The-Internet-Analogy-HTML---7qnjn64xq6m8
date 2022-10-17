@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color:rgb(57, 82, 104);
      display: flex;
     align-items:center;
     justify-content: center; 
@@ -36,6 +36,7 @@ body{
     justify-content: center;
 }
 .nav{
+    cursor: pointer;
     position:relative;
     left:8px;
     top: 5px;
@@ -46,4 +47,27 @@ body{
     left:20px;
     top: 5px;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.nav:hover{
+    box-shadow: 5px 0 20px rgb(5, 6, 5);
+} 
+.about:hover{
+    box-shadow: 5px 0 20px rgb(5, 6, 5);
+}
+#idHome{
+    color: blue;
+}
+#c{
+    color: blue;
+}
+@media screen and (max-width:100px){
+    .container{
+    width: 100%;
+      
+    }
+  } 
 
